@@ -1,0 +1,85 @@
+
+
+*{
+    font-family:;
+}
+
+.wrapper{
+    margin:50px auto;
+    max-width:1024px;
+
+}
+
+.nav{
+    margin:50px;
+}
+
+ul, li{
+    margin:0 10px;
+    padding:0;
+}
+
+li{
+    display:inline;
+    margin-right: 10} 
+    li.coming-soon {
+     display: none;
+
+}
+
+.menu-item{
+    border-bottom-right-radius: 100px 100px;
+    padding:10px;
+    border: 3px solid #0088dd ;
+}
+
+.menu-item-1{
+     border: 3px dotted rgb(0, 128, 64);
+     padding: 20px;
+     border-radius: 1em 4em 1em 4em / 2em 1em 2em 1em;
+}
+
+.menu-item-2{
+border-radius: 10px;
+width: 250px;
+border: 5px dashed pink;
+padding: 10px;
+}
+
+.menu-item-3{
+     border: double darkturquoise;
+     padding: 20px;
+     border-width: 4px;
+     border-bottom: 8px solid turquoise;
+}
+
+.space{
+color: gray;
+border-style: solid;
+border-color: black;
+padding: 30px;
+font-family: 'Pacifico',cursive;
+}
+
+.center{
+    color: green;
+    border-style:solid;
+    padding:30px;
+    border-color: black;
+    height:90%;
+    width:90%;
+    margin:0%;
+    font-family: 'Pacifico', cursive;
+}
+
+.right{
+    border-style:solid;
+    height:93%;
+    width:93%;
+    margin:0%;
+    padding: 30px;
+    font-family: 'Pacifico', cursive;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

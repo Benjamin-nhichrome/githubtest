@@ -1,0 +1,44 @@
+/* Stijlen voor lijsten */
+ul {
+    list-style-type: disc;
+    color: #333;
+}
+
+ol {
+    list-style-type: decimal;
+    color: #666;
+}
+
+/* Stijlen voor tabellen */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Stijlen voor formulieren */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Voeg meer stijlen toe aan formulierelementen zoals knoppen en labels */
+
+/* Voeg kleuren toe die bij elkaar passen (bijv. achtergrondkleur, tekstkleur, enz.) */
