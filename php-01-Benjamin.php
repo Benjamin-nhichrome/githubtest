@@ -3,9 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Benjamin Adusu</title>
+    <title>?Welkom</title>
 </head>
 <body>
-    
+<?php
+    echo $_GET['naam'];
+    ?>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+  
