@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gemiddelde Cijfers</title>
+</head>
+<body>
+    <script>
+        const studentCijfer = [10, 5, 7, 8, 3, 2];
+        let gemiddelde = 0;
+        let totaal = 0;
+
+        for (cijfer of studentCijfer) {
+            totaal = totaal + cijfer;
+        }
+
+        gemiddelde = totaal / studentCijfer.length;
+
+            console.log("Het gemiddelde van de cijfers is: " + gemiddelde);
+
+// Voeg 3 extra waardes toe aan de array
+studentCijfer.push(6, 9, 4);
+
+// Bereken en toon het gemiddelde opnieuw
+totaal = 0; // Reset het totaal
+for (cijfer of studentCijfer) {
+    totaal = totaal + cijfer;
+}
+
+gemiddelde = totaal / studentCijfer.length;
+console.log("Het nieuwe gemiddelde met de toegevoegde waardes is: " + gemiddelde);
+</script>
+</body>
+</html>

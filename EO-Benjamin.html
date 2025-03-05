@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Capital Guessing Game</title>
+</head>
+<body>
+ 
+<script>
+    let numberOfRounds = parseInt(prompt("How many times do you want to play the game?"));
+    let points = 0;
+    let roundsPlayed = 0;
+ 
+   
+    let countries = ["Italy", "Luxembourg", "Belgium", "Denmark", "Finland", "France", "Slovakia", "Slovenia", "Germany", "Greece", "Ireland", "Netherlands", "Portugal", "Spain", "Sweden", "United Kingdom", "Cyprus", "Lithuania", "Czech Republic", "Estonia", "Hungary", "Austria", "Poland"];
+    let capitals = ['Rome', 'Luxembourg', 'Brussels', 'Copenhagen', 'Helsinki', 'Paris', 'Bratislava', 'Ljubljana', 'Berlin', 'Athens', 'Dublin', 'Amsterdam', 'Lisbon', "Madrid", "Stockholm", "London", "Nicosia", "Vilnius", "Prague", "Tallinn", "Budapest", "Vienna", "Warsaw"];
+ 
+   
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+ 
+    while (roundsPlayed < numberOfRounds) {
+        let randomIndex = getRandomInt(countries.length);
+        let selectedCountry = countries[randomIndex];
+        let correctCapital = capitals[randomIndex];
+ 
+        let userAnswer = prompt(`What is the capital of ${selectedCountry}? \n\n ${capitals.join("\n")}`);
+ 
+       
+        if (userAnswer === correctCapital) {
+            points++;
+            alert("Correct answer! You've earned a point.");
+        } else {
+            alert(`Wrong answer! The correct answer is ${correctCapital}.`);
+        }
+        roundsPlayed++;
+    }
+ 
+   
+    alert(`Game over! You've played ${roundsPlayed} times and scored ${points} points in total.`);
+ 
+</script>
+ 
+</body>
+</html>
+ 
