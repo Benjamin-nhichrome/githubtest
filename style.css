@@ -1,117 +1,263 @@
 body {
-    background: linear-gradient(to right, #ddff02, #ff0000);
-    color: #000000;
-    margin: 0;
-    background-image: url(240_F_607284544_EGDRajyCsT0ydgeU8MiYwsuQ6omENxTH.jpg); 
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: 'Fira Sans Condensed', sans-serif;
-}
-
-header {
-    background-color: #212121;
-    text-align: center;
-    padding: 10px;
-    color: #fff;
-    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
     display: flex;
     align-items: center;
+    height: auto;
+    margin: 0%;
 }
 
- 
-
-nav.nav-links {
-    background-color: #212121; 
-    padding: 10px;
-    text-align: center;
-    display: none;
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px;
+    width: 400px;
 }
 
- 
-
-.nav-links.show {
-    display: block;
+.container (h1) {
+    margin-bottom: 20px;
+    text-align:center:
 }
 
- 
-
-.nav-links ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+form {
+    display: flex;
+    flex-direction: column;
 }
 
- 
-
-.nav-links ul li {
-    margin-bottom: 10px;
-}
-
- 
-
-.nav-links ul li a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 8px 15px;
-    background-color: #424242; 
-    border-radius: 5px;
-}
-
- 
-
-.nav-links ul li a:hover {
-    background-color: #616161; 
-}
-
- 
-
-#profiel {
+.input-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 100px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #45a049;
+    color: aqua;
+    border: none;
+    padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 4px;   
 }
 
- 
-
-.profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+button:hover {
+    background-color: #45a049;
 }
 
- 
 
-#profiel img {
-    margin-top: 20px; 
-    max-width: 200px;
-    height: auto;
-}
 
- 
 
-main {
-    flex: 1;
-}
 
- 
 
-footer {
-    background-color: #212121; 
-    padding: 10px;
-    text-align: center;
-    color: #fff; 
-}
 
- 
 
-.logo {
-    max-width: 100px; 
-    margin: 20px;
-    border-radius: 40%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                /* styles.css */
+
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f0f0f0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100vh;
+                    margin: 0;
+                }
+                
+                .container {
+                    background-color: #ffffff;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+                    width: 400px;
+                }
+                
+                .container h2 {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+                
+                form {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                .input-container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 15px;
+                }
+                
+                .input-container .team-select,
+                .input-container .score-input {
+                    flex: 1;
+                    margin-right: 10px;
+                }
+                
+                .team-select label,
+                .score-input label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                
+                select,
+                input[type="number"] {
+                    width: 100%;
+                    padding: 8px;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                
+                button {
+                    background-color: #4CAF50;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin-top: 15px;
+                    cursor: pointer;
+                    border-radius: 4px;
+                }
+                
+                button:hover {
+                    background-color: #45a049;
+                }
+                
