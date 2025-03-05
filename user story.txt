@@ -1,0 +1,5 @@
+1. Producten bekijken en filteren : "Als klant wil ik de collectie kleding en accessoires online kunnen bekijken en deze kunnen filteren op categorie, prijs en maat, zodat ik gemakkelijk de items kan vinden die ik wil kopen."
+2. Items aan winkelwagentje toevoegen/verwijderen : "Als klant wil ik in staat zijn om items aan mijn winkelwagentje toe te voegen en te verwijderen, zodat ik kan beslissen wat ik wil kopen voordat ik afreken."
+3. Veilig afrekenen : "Als klant wil ik veilig kunnen afrekenen met mijn creditcard of PayPal, zodat ik mijn aankopen op een veilige en betrouwbare manier kan voltooien."
+4. Bestelgeschiedenis en status bekijken : "Als klant wil ik mijn bestelgeschiedenis kunnen bekijken en de status van mijn huidige bestellingen kunnen volgen, zodat ik eenvoudig inzicht heb in mijn aankopen en weet wanneer ik mijn bestelling kan verwachten."
+
