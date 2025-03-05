@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #003cff;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0074D9;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #blokje {
+            width: 200px;
+            height: 100px;
+            background-color: #ddd;
+            text-align: center;
+            line-height: 100px;
+            font-size: 18px;
+            color: #333;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" onchange="colorIt(this)" placeholder="als je hier typt word ik anders...">
+
+    <p><button onclick="myFunction();">Klik mij</button></p>
+    
+    <p><button onclick="changeText('info', 'Mijn naam is Benjamin');">Vertel mijn naam</button></p>
+    <p id="info">Wat is jouw naam?</p>
+
+    <div id="blokje" onmouseout="hoverIt();">Maak mij anders!</div>
+
+    <script>
+        function myFunction() {
+            const today = new Date();
+            alert(`Vandaag is het ${today.toDateString()}`);
+        }
+
+        function changeText(id, text) {
+            document.getElementById(id).innerHTML = text;
+        }
+
+        function hoverIt() {
+            document.getElementById("blokje").style.backgroundColor = "yellow";
+        }
+
+        function colorIt(element) {
+            var text = element.value.toLowerCase();
+            var color = "#003cff"; // standaardkleur
+
+            if (text.includes("rood")) {
+                color = "red";
+            } else if (text.includes("blauw")) {
+                color = "blue";
+            } else if (text.includes("groen")) {
+                color = "green";
+            }
+
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
