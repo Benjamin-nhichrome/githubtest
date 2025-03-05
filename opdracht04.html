@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uitslagen EK 2024</title>
+</head>
+<body>
+    <style>
+        table {
+            width: 100%;
+        }
+        table,th,td {
+            border: #f2f2f2;
+            padding: 9px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+       <h2>Uitslagen EK 2024</h2>
+       <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Team 1</th>
+                <th>Team 2</th>
+                <th>Score 1</th>
+                <th>Score 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            foreach ($result as $row): ?>
+                <tr>
+                    <td><?php echo htmlspecialchars($row['id']);?></td>
+                    <td><?php echo htmlspecialchars($row['Team 1']);?></td>
+                    <td><?php echo htmlspecialchars($row['Team 2']);?></td>
+                    <td><?php echo htmlspecialchars($row['Score 1']);?></td>
+                    <td><?php echo htmlspecialchars($row['Score 2']);?></td>
+                </tr>
+                <?php endforeach; ?>
+        </tbody>
+       </table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
